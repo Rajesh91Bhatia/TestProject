@@ -5,6 +5,7 @@
     <classes>
       <class name="TestProject_Maven.TestProject_Maven.ParallelMethodTest"/>
       <class name="TestProject_Maven.TestProject_Maven.GoogleLaunchTest"/>
+      <class name="TestProject_Maven.TestProject_Maven.ReportingTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -18,7 +18,7 @@ public class GoogleLaunchTest {
 		 driver = new ChromeDriver();
 	}
 	
-	@Test
+	@Test(enabled=false)
 	public void GoogleLaunchTest()
 	{
 		driver.get("https://www.google.com");
@@ -26,7 +26,7 @@ public class GoogleLaunchTest {
 		driver.quit();
 	}
 	
-	@Test
+	@Test(enabled=false)
   	public void FacebookLaunchTest() {
 	 	driver.get("https://www.facebook.com");
 		System.out.println("Title is " + driver.getTitle()  + " with Thread Id --" + Thread.currentThread().getId());
