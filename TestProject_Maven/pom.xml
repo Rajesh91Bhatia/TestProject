@@ -36,6 +36,12 @@
     		<scope>test</scope>
 		</dependency>
 		
+		
+		<dependency>
+  			<groupId>org.apache.maven.wagon</groupId>
+  			<artifactId>wagon-file</artifactId>
+  			<version>3.4.0</version>
+		</dependency>
     </dependencies>
     <build>
         <plugins>
