@@ -2,12 +2,9 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
   <test thread-count="5" name="Test">
-    <classes>
-      <class name="SauceLabsTest.GoogleLaunchTest_WithSauceLabs"/>
-      <class name="TestProject_Maven.TestProject_Maven.SauceLabsConnectionTest"/>
-      <class name="TestProject_Maven.TestProject_Maven.ReportingTest"/>
-      <class name="TestProject_Maven.TestProject_Maven.ParallelMethodTest"/>
-      <class name="TestProject_Maven.TestProject_Maven.GoogleLaunchTest"/>
-    </classes>
+  	<packages>
+      <package name="SauceLabsTest"/>
+      
+    </packages>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
