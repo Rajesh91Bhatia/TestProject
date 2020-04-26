@@ -7,7 +7,7 @@ import org.testng.annotations.AfterMethod;
 public class ReportingTest {
   @Test
   public void f() {
-	  System.out.println("Actual Test");
+	  System.out.println("Actual Test After Changes");
   }
   @BeforeMethod
   public void beforeMethod() {
