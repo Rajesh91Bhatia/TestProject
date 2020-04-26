@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Suite">
-  <test thread-count="5" name="Test">
+<suite name="Suite" parallel="classes">
+  <test thread-count="5" name="TestingNewTestNG" parallel="classes">
     <classes>
       <class name="TestProject_Maven.TestProject_Maven.GoogleLaunchTest_WithSauceLabs"/>
       <class name="TestProject_Maven.TestProject_Maven.SauceLabsConnectionTest"/>
@@ -9,5 +9,5 @@
       <class name="TestProject_Maven.TestProject_Maven.ParallelMethodTest"/>
       <class name="TestProject_Maven.TestProject_Maven.GoogleLaunchTest"/>
     </classes>
-  </test> <!-- Test -->
+  </test> <!-- TestingNewTestNG -->
 </suite> <!-- Suite -->
