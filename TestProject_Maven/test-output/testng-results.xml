@@ -1,49 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="71" started-at="2020-04-25T14:34:48Z" finished-at="2020-04-25T14:34:48Z">
+  <suite name="Default suite" duration-ms="53545" started-at="2020-04-26T14:16:37Z" finished-at="2020-04-26T14:17:30Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="71" started-at="2020-04-25T14:34:48Z" finished-at="2020-04-25T14:34:48Z">
-      <class name="TestProject_Maven.TestProject_Maven.ParallelMethodTest">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestProject_Maven.TestProject_Maven.ParallelMethodTest@4c6e276e]" name="beforeMethod" is-config="true" duration-ms="8" started-at="2020-04-25T20:04:48Z" finished-at="2020-04-25T20:04:48Z">
+    <test name="Default test" duration-ms="53545" started-at="2020-04-26T14:16:37Z" finished-at="2020-04-26T14:17:30Z">
+      <class name="TestProject_Maven.TestProject_Maven.GoogleLaunchTest_WithSauceLabs">
+        <test-method status="PASS" signature="BeforeLauch(java.lang.reflect.Method)[pri:0, instance:TestProject_Maven.TestProject_Maven.GoogleLaunchTest_WithSauceLabs@123f1134]" name="BeforeLauch" is-config="true" duration-ms="22934" started-at="2020-04-26T19:46:37Z" finished-at="2020-04-26T19:47:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestProject_Maven.TestProject_Maven.GoogleLaunchTest_WithSauceLabs.GoogleLaunchTest()]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testMethodsOne()[pri:0, instance:TestProject_Maven.TestProject_Maven.ParallelMethodTest@4c6e276e]" name="testMethodsOne" duration-ms="7" started-at="2020-04-25T20:04:48Z" finished-at="2020-04-25T20:04:48Z">
+        </test-method> <!-- BeforeLauch -->
+        <test-method status="PASS" signature="GoogleLaunchTest()[pri:0, instance:TestProject_Maven.TestProject_Maven.GoogleLaunchTest_WithSauceLabs@123f1134]" name="GoogleLaunchTest" duration-ms="4015" started-at="2020-04-26T19:47:00Z" finished-at="2020-04-26T19:47:04Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testMethodsOne -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestProject_Maven.TestProject_Maven.ParallelMethodTest@4c6e276e]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-04-25T20:04:48Z" finished-at="2020-04-25T20:04:48Z">
+        </test-method> <!-- GoogleLaunchTest -->
+        <test-method status="PASS" signature="BeforeLauch(java.lang.reflect.Method)[pri:0, instance:TestProject_Maven.TestProject_Maven.GoogleLaunchTest_WithSauceLabs@123f1134]" name="BeforeLauch" is-config="true" duration-ms="18560" started-at="2020-04-26T19:47:04Z" finished-at="2020-04-26T19:47:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestProject_Maven.TestProject_Maven.GoogleLaunchTest_WithSauceLabs.FacebookLaunchTest()]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestProject_Maven.TestProject_Maven.ParallelMethodTest@4c6e276e]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-04-25T20:04:48Z" finished-at="2020-04-25T20:04:48Z">
+        </test-method> <!-- BeforeLauch -->
+        <test-method status="PASS" signature="FacebookLaunchTest()[pri:1, instance:TestProject_Maven.TestProject_Maven.GoogleLaunchTest_WithSauceLabs@123f1134]" name="FacebookLaunchTest" duration-ms="7965" started-at="2020-04-26T19:47:22Z" finished-at="2020-04-26T19:47:30Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testMethodsThree()[pri:0, instance:TestProject_Maven.TestProject_Maven.ParallelMethodTest@4c6e276e]" name="testMethodsThree" duration-ms="2" started-at="2020-04-25T20:04:48Z" finished-at="2020-04-25T20:04:48Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testMethodsThree -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestProject_Maven.TestProject_Maven.ParallelMethodTest@4c6e276e]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-04-25T20:04:48Z" finished-at="2020-04-25T20:04:48Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestProject_Maven.TestProject_Maven.ParallelMethodTest@4c6e276e]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-04-25T20:04:48Z" finished-at="2020-04-25T20:04:48Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="testMethodsTwo()[pri:0, instance:TestProject_Maven.TestProject_Maven.ParallelMethodTest@4c6e276e]" name="testMethodsTwo" duration-ms="2" started-at="2020-04-25T20:04:48Z" finished-at="2020-04-25T20:04:48Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testMethodsTwo -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestProject_Maven.TestProject_Maven.ParallelMethodTest@4c6e276e]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-04-25T20:04:48Z" finished-at="2020-04-25T20:04:48Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-      </class> <!-- TestProject_Maven.TestProject_Maven.ParallelMethodTest -->
+        </test-method> <!-- FacebookLaunchTest -->
+      </class> <!-- TestProject_Maven.TestProject_Maven.GoogleLaunchTest_WithSauceLabs -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
