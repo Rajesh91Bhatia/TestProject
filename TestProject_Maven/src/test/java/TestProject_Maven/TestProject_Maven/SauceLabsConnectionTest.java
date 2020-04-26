@@ -17,7 +17,7 @@ import java.net.URL;
 public class SauceLabsConnectionTest {
 	
 	 private WebDriver driver;
-  @Test
+  @Test(enabled=false)
   public void TestChrome() throws MalformedURLException {
 	  
 	  String sauceUserName = "rajesh91bhatia";
@@ -67,7 +67,7 @@ public class SauceLabsConnectionTest {
 	    }
 	    driver.quit();
   }
-  @Test
+  @Test(enabled=false)
   public void TestSafari() throws MalformedURLException {
 	  
 	  String sauceUserName = "rajesh91bhatia";
