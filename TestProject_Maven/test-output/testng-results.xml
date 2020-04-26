@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="71" started-at="2020-04-25T14:34:48Z" finished-at="2020-04-25T14:34:48Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="71" started-at="2020-04-25T14:34:48Z" finished-at="2020-04-25T14:34:48Z">
+      <class name="TestProject_Maven.TestProject_Maven.ParallelMethodTest">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestProject_Maven.TestProject_Maven.ParallelMethodTest@4c6e276e]" name="beforeMethod" is-config="true" duration-ms="8" started-at="2020-04-25T20:04:48Z" finished-at="2020-04-25T20:04:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testMethodsOne()[pri:0, instance:TestProject_Maven.TestProject_Maven.ParallelMethodTest@4c6e276e]" name="testMethodsOne" duration-ms="7" started-at="2020-04-25T20:04:48Z" finished-at="2020-04-25T20:04:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethodsOne -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestProject_Maven.TestProject_Maven.ParallelMethodTest@4c6e276e]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-04-25T20:04:48Z" finished-at="2020-04-25T20:04:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestProject_Maven.TestProject_Maven.ParallelMethodTest@4c6e276e]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-04-25T20:04:48Z" finished-at="2020-04-25T20:04:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testMethodsThree()[pri:0, instance:TestProject_Maven.TestProject_Maven.ParallelMethodTest@4c6e276e]" name="testMethodsThree" duration-ms="2" started-at="2020-04-25T20:04:48Z" finished-at="2020-04-25T20:04:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethodsThree -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestProject_Maven.TestProject_Maven.ParallelMethodTest@4c6e276e]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-04-25T20:04:48Z" finished-at="2020-04-25T20:04:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestProject_Maven.TestProject_Maven.ParallelMethodTest@4c6e276e]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-04-25T20:04:48Z" finished-at="2020-04-25T20:04:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testMethodsTwo()[pri:0, instance:TestProject_Maven.TestProject_Maven.ParallelMethodTest@4c6e276e]" name="testMethodsTwo" duration-ms="2" started-at="2020-04-25T20:04:48Z" finished-at="2020-04-25T20:04:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethodsTwo -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestProject_Maven.TestProject_Maven.ParallelMethodTest@4c6e276e]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-04-25T20:04:48Z" finished-at="2020-04-25T20:04:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- TestProject_Maven.TestProject_Maven.ParallelMethodTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
