@@ -60,7 +60,7 @@
        <repository>
          <id>internal.repo</id>
          <name>Internal repo</name>
-         <url>D:\Maven\Deployment</url>
+         <url>file://D:/Maven/Deployment</url>
        </repository>
    </distributionManagement>
 </project>
