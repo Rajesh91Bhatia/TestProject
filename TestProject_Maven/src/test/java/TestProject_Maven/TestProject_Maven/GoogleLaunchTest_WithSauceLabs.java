@@ -1,4 +1,4 @@
-package SauceLabsTest;
+package TestProject_Maven.TestProject_Maven;
 
 import java.lang.reflect.Method;
 import java.net.MalformedURLException;
